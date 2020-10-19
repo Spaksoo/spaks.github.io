@@ -7,7 +7,7 @@ myImage.onclick = function() {
     } else {
       myImage.setAttribute ('src','images/ponchik.png');
     }
-}
+
 let myButton = document.querySelector('button')
 let myHeading = document.querySelector('h1')
 function setUserName(){
@@ -24,3 +24,4 @@ if(!localStorage.getItem('name')) {
   myButton.onclick = function() {
     setUserName();
   }
+}
